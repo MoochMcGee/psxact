@@ -67,4 +67,4 @@ set(SOURCE_FILES
 
 add_executable(psxact ${SOURCE_FILES})
 
-target_link_libraries(psxact ${SDL2_LIBRARY})
+target_link_libraries(psxact SDL2main SDL2)
